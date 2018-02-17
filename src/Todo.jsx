@@ -1,7 +1,6 @@
 import React from 'react';
 
 const Todo = ({todo, toggleTodo}) => {
-  console.log('rendering a todo')
   return (
     <div className={`todo ${todo.isCompleted ? 'completed' : null}`}>
       <input

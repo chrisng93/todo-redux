@@ -4,7 +4,6 @@ import Todo from './Todo';
 import * as actions from './todoActions';
 
 const TodoList = ({todos, toggleTodo}) => {
-  console.log('got new todos in list', todos)
   return (
     <div className="todolist">
       {Object.keys(todos).map(id => {
